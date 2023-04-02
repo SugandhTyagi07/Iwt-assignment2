@@ -1,0 +1,33 @@
+<html>
+	<head>
+	  <title>forms</title>	
+	</head>
+        <body>
+	<h1>Registration form</h1>
+	<form action="profile.html">
+	<div>
+	Name:<input type=text name=myname size=30>
+	</div><br>
+	<div>
+	Roll Number:<input type=text name=myRoll size=30>
+	</div><br>
+	<div>
+	Gender: Male: <input type="radio" name=rd value=m> Female: <input type ="radio" name=rd value=f > Other: <input type="radio" name=rd value=o>
+	</div><br>
+	<div>
+	Your Interest: Swimming:<input type=checkbox name=cb value=sw checked> Play:<input type=checkbox name=cb value=p> Sing:<input type=checkbox name=cb value=s>
+	</div><br>
+	<div>
+	Class: <select name=cls multiple size=2>
+		<option value=it selected>B-tect CS</option>
+		<option value=cs>B-tech IT</option>
+		<option value=mt>B-tech MT</option>
+	</select>
+	</div><br>
+	<div>
+		<textarea row=4 coloumn=4 name=comment>Any Comment....</textarea>
+	</div>
+		<br><input type=submit value=Register> <input type=reset value="Reset">
+	</form>
+	</body>
+</html>

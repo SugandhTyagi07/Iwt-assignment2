@@ -1,0 +1,14 @@
+body {
+				background-color:red;
+				background-image:  url("images/11.png") , url("images/10.jpeg");
+				background-size:600px 400px,auto;
+			
+				background-position:center;
+				background-attachment:fixed;
+				}
+pre {
+				background-image:  url("images/12.jpg") 
+	}
+h1 {
+				background: rgba(53,45,278,.5);
+}
